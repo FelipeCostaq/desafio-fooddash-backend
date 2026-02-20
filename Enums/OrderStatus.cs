@@ -5,6 +5,7 @@
         Recebido,
         Preparando,
         EmRota,
-        Entregue
+        Entregue,
+        Cancelado
     }
 }
