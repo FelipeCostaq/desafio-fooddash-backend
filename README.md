@@ -69,9 +69,9 @@ Pronto! A API está rodando em: http://localhost:8080/swagger
 ## Menu
 
 - **POST** `/menu` – Adiciona um prato no menu.
-- **GET** `/menu/status?=` – Lista todos pratos do menu caso status venha vazio ou inválido, caso receba o valor available lista todos pratos disponiveis, caso venha unavailable lista todos pratos indisponiveis.
+- **GET** `/menu/status?=` – Lista todos pratos.
 - **PUT** `/menu/{id}` – Editar um prato.
-- **PATCH** `/menu/{id}/availability` - Editar a disponbiilidade de um prato.
+- **PATCH** `/menu/{id}/availability` - Editar a disponibilidade.
 - **DELETE** `/menu/{id}` – Remove um prato.
 
 ## Orders
@@ -80,4 +80,4 @@ Pronto! A API está rodando em: http://localhost:8080/swagger
 - **POST** `/orders` - Criar um pedido.
 - **GET** `/orders/{id}` - Listar um pedido pelo id.
 - **DELETE** `/orders/{id}` - Deleta um pedido.
-- **PATCH** `/orders/{id}/status` - Atualiza apenas o status do pedido.
+- **PATCH** `/orders/{id}/status` - Atualiza o status.
